@@ -1,0 +1,61 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#title {
+    background-color: rgb(179, 108, 246);
+    width: 100%;
+    padding: 2rem 0px;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+#start {
+    color: rgb(125, 26, 217);
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.form_elements {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input,
+#gender,
+button {
+    width: 25rem;
+    height: 2.5rem;
+    border: none;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    outline: none;
+}
+
+input,
+#gender {
+    background-color: rgb(227, 223, 231);
+    padding-left: 2rem;
+}
+
+#gender {
+    color: rgb(109, 107, 107);
+}
+
+button {
+    background-color: rgb(179, 108, 246);
+    font-weight: 600;
+    color: white;
+}

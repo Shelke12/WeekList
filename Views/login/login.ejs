@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="/public/styles/login.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <p id="title">WeekList</p>
+
+        <p id="start">Let's get started</p>
+
+        <form action="/index.js" method="post">
+            <div class="form_elements">
+                <div class="feild">
+                    <input placeholder="Your Name" id="name" name="name" required>
+                </div>
+
+                <div class="feild">
+                    <input placeholder="Your Email" id="email" name="email" type="email" required>
+                </div>
+
+                <div class="feild">
+                    <input placeholder="Your Password" id="Password" name="Password" type="password" required>
+                </div>
+
+
+                <div class="feild">
+                    <input placeholder="Your age" id="age" name="age" type="number" required>
+                </div>
+
+                <div class="feild">
+                    <select id="gender" name="gender" required>
+                        <option value="Select Gender">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="Female">FEMale</option>
+                        <option value="Transgender">Transgender</option>
+                    </select>
+                </div>
+
+                <div class="feild">
+                    <input placeholder="Your Number" id="Number" name="Number" type="number" required>
+                </div>
+
+                <div class="feild"> <button>Sign Up</button></div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
